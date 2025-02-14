@@ -6,26 +6,36 @@ namespace Mission6Ass.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    private MovieFormContext _context; 
+    
+    public HomeController(MovieFormContext context) // constructor
     {
-        _logger = logger;
+        _context = context;
     }
-
+    
     public IActionResult Index()
     {
         return View();
     }
-
-    public IActionResult Privacy()
+    
+    public IActionResult KnowJoel()
     {
         return View();
     }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
+    [HttpGet]
+    public IActionResult MovieForm()
     {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        return View();
+    }
+    
+    [HttpPost]
+    public IActionResult MovieForm(MovieForm response)
+    {
+        _context.MovieForms.Add(response); // add response to database
+        _context.SaveChanges(); // save the changes
+        
+        return RedirectToAction("MovieForm"); // reload page so form is empty
     }
 }
