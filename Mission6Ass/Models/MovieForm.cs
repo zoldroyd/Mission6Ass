@@ -5,7 +5,7 @@ namespace Mission6Ass.Models;
 public class MovieForm
 {
     [Key]
-    [Required] // make it a rquired input like the next 5
+    [Required] // make it a required input like the next 5
     public int Id { get; set; }
     
     [Required]
