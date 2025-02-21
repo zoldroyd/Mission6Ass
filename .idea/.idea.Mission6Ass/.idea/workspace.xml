@@ -9,7 +9,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d75eb27-53b9-4078-84b6-8cf4bd18794d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Mission6Ass/Models/Category.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mission6Ass/Views/Home/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mission6Ass/Views/Home/MovieList.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Mission6Ass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mission6Ass/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission6Ass/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mission6Ass/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission6Ass/Migrations/20250219160626_Initial.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission6Ass/Migrations/20250219160626_Initial.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission6Ass/Migrations/MovieFormContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission6Ass/Models/MovieForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mission6Ass/Models/MovieForm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission6Ass/Models/MovieFormContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mission6Ass/Models/MovieFormContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission6Ass/MovieForm.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission6Ass/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mission6Ass/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission6Ass/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Mission6Ass/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission6Ass/Views/Home/MovieForm.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Mission6Ass/Views/Home/MovieForm.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission6Ass/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Mission6Ass/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="mission7_Oldroyd" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,7 +74,7 @@
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;mission7__Oldroyd&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -116,6 +130,9 @@
       <workItem from="1739980689768" duration="52000" />
       <workItem from="1739980842989" duration="253000" />
       <workItem from="1739981112905" duration="302000" />
+      <workItem from="1740002354432" duration="1683000" />
+      <workItem from="1740004450813" duration="29000" />
+      <workItem from="1740004516828" duration="13659000" />
     </task>
     <task id="LOCAL-00001" summary="everything">
       <option name="closed" value="true" />
@@ -141,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739980953017</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="this too">
+      <option name="closed" value="true" />
+      <created>1739982037507</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739982037507</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +202,7 @@
     <MESSAGE value="everything" />
     <MESSAGE value="initial" />
     <MESSAGE value="nj" />
-    <option name="LAST_COMMIT_MESSAGE" value="nj" />
+    <MESSAGE value="this too" />
+    <option name="LAST_COMMIT_MESSAGE" value="this too" />
   </component>
 </project>
